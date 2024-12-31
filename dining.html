@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti Adventures</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 0;
+            color: #333;
+        }
+        body, header h1 {
+            margin: 0;
+        }
+        body, nav a:hover, footer a:hover {
+            background-color: #f4f4f9;
+        }
+        header {
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #2b5d34;
+        }
+        header, nav, main, footer, aside h4 {
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
+            text-shadow: 2px 2px #144421;
+        }
+        header h1, nav a, footer a, footer {
+            color: white;
+        }
+        nav {
+            background-color: #1a4021;
+            padding: 10px 0;
+        }
+        nav a, footer a {
+            margin: 0 15px;
+            font-size: 1.2em;
+            padding: 8px 15px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a, footer a, .card h4 a {
+            text-decoration: none;
+        }
+        nav a:hover, footer a:hover{
+            border-radius: 5px;
+        }
+        nav a:hover, footer a:hover, .card h4 a, .card h4 a:visited {
+            color: #2b5d34;
+        }
+        main {
+            margin: 20px;
+        }
+        #home_container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .card img, .card-lrg img {
+            display: block;
+            margin: 0 auto;
+        }
+        .card img {
+            width: 30em;
+            height: 20em;
+        }
+        .card-lrg img{
+            width: 50em;
+            height: 40em;
+        }
+        .card h4, aside h4, .card-lrg h4 {
+            margin-bottom: 10px;
+        }
+        .card h4 a, .card-lrg h4 a {
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .card h4 a:hover {
+            color: #1a4021;
+            text-decoration: underline;
+        }
+        aside {
+            width: 25%;
+            text-align: left;
+        }
+        aside ul {
+            list-style: disc inside;
+            line-height: 1.5;
+        }
+        footer {
+            padding: 15px 0;
+            font-size: 0.9em;
+        }
+        main aside button {
+            background-color: #2b5d34;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.5em;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 10px;
+        }
+        main aside button:hover {
+            background-color: #1a4021;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TANITI ADVENTURES</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="activities.html">Activities</a>
+        <a href="dining.html">Dining</a>
+        <a href="transportation.html">Transportation</a>
+    </nav>
+    <main>
+        <h2>Enjoy the cuisine on Taniti!</h2>
+        <section id="home_container">
+            <section>
+                <p><strong>Restaurants:</strong> Taniti currently has 10 restaurants: five serve mostly local fish and rice, three serve American-style meals, and two serve Pan-Asian cuisine.</p>
+                <p><strong>Grocery Stores:</strong> Taniti has two supermarkets, two smaller grocery stores, and one convenience store that is open 24 hours a day.</p>
+                <div class="card-lrg">
+                    <h4>Local Cuisine</h4>
+                    <img src="dining_1.jpg" alt="A image of a diver photographing a turtle.">
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <h4>American Dining</h4>
+                    <img src="american_dining.jpg" alt="An image of a woman ziplining into a forest.">
+                </div>
+                <div class="card">
+                    <h4>Boat Tours</h4>
+                    <img src="family_dining.jpg" alt="A group of tourists on a boat tour enjoying the view of a small rocky island surrounded by calm blue waters under a clear sky.">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p><strong>Image Sources and Credits</strong></p>
+        <ul>
+            <li>Keegan Checks (December 22, 2024). Vibrant Zanzibar Cuisine Display with Fresh Fruits. <a href="https://www.pexels.com/photo/vibrant-zanzibar-cuisine-display-with-fresh-fruits-29889195/">https://www.pexels.com/photo/vibrant-zanzibar-cuisine-display-with-fresh-fruits-29889195/</a></li>
+            <li>Robin Stickel (April 10, 2016), Fries and Burger on Plate. <a href="https://www.pexels.com/photo/fries-and-burger-on-plate-70497/">https://www.pexels.com/photo/fries-and-burger-on-plate-70497/</a></li>
+            <li>Nicole Michalou (November 2, 2020), Family Celebrating Christmas Dinner. <a href="https://www.pexels.com/photo/family-celebrating-christmas-dinner-5775062/">https://www.pexels.com/photo/family-celebrating-christmas-dinner-5775062/</a></li>
+        </ul>
+        <a href="home.html">Home</a>
+        <a href="lodging.html">Lodging</a>
+        <a href="activities.html">Activities</a>
+        <a href="dining.html">Dining</a>
+        <a href="transportation.html">Transportation</a>
+    </footer>
+</body>
+</html>
